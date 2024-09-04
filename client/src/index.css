@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body,
 #root,
@@ -7,6 +9,11 @@ body,
   height: 100%;
   width: 100%;
   font-family: "Inter", sans-serif;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 ::-webkit-scrollbar {
